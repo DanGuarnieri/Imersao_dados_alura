@@ -1,6 +1,6 @@
 # 📊 Imersão de Dados com Python — Alura
 
-Este repositório reúne o conteúdo e os códigos desenvolvidos durante a **Imersão de Dados com Python da Alura**.  
+Este repositório reúne o conteúdo e os códigos desenvolvidos durante a **Imersão de Dados com Python da Alura**.
 O objetivo foi aprender a manipular, limpar, visualizar e apresentar dados de forma interativa, utilizando **Python** e bibliotecas voltadas para análise e visualização.
 
 ---
@@ -10,6 +10,7 @@ O objetivo foi aprender a manipular, limpar, visualizar e apresentar dados de fo
 A imersão foi dividida em **4 etapas principais**:
 
 ### **Aula 1 — Explore dados com Pandas**
+
 - Leitura de bases de dados (`.csv`, `.xlsx`, etc.).
 - Uso do `pandas` para inspeção e exploração inicial dos dados.
 - Estatísticas descritivas (`.describe()`, `.value_counts()`).
@@ -18,6 +19,7 @@ A imersão foi dividida em **4 etapas principais**:
 ---
 
 ### **Aula 2 — Limpeza e preparação dos dados**
+
 - Tratamento de valores ausentes (`NaN`).
 - Padronização de formatos de texto, datas e números.
 - Conversão de tipos de dados (`astype()`).
@@ -27,6 +29,7 @@ A imersão foi dividida em **4 etapas principais**:
 ---
 
 ### **Aula 3 — Visualização e storytelling com dados**
+
 - Uso do `matplotlib`, `seaborn` e `plotly.express` para gráficos.
 - Criação de histogramas, gráficos de barras e gráficos de pizza.
 - Ajuste de títulos, legendas e escalas.
@@ -35,6 +38,7 @@ A imersão foi dividida em **4 etapas principais**:
 ---
 
 ### **Aula 4 — Dashboard interativo**
+
 - Desenvolvimento de um dashboard com **Streamlit**.
 - Adição de filtros interativos (multiselect, slider).
 - KPIs dinâmicos com `st.metric`.
@@ -44,6 +48,7 @@ A imersão foi dividida em **4 etapas principais**:
 ---
 
 ## 🛠 Tecnologias Utilizadas
+
 - **Python 3.x**
 - **Pandas** — manipulação de dados.
 - **Plotly Express** — visualização interativa.
@@ -54,26 +59,32 @@ A imersão foi dividida em **4 etapas principais**:
 ---
 
 ## 🚀 Como Executar
+
 1. Clone este repositório:
    ```bash
    git clone https://github.com/DanGuarnieri/Imersao_dados_alura.git
 
+   ```
 2. Entre na pasta do projeto
-    ```bash
-    cd imersao-dados-alura
+   ```bash
+   cd imersao-dados-alura
+   ```
 3. Criar e Ativar o ambiente virtual (Windows)
-    ```bash
-    python -m venv venv
-    .\venv\Scripts\Activate.ps1
-3. Instale as dependências
-    ```bash
-    pip install -r requirements.txt
-4. para abrir os notebooks:
-    ```bash
-    jupyter notebook
+   ```bash
+   python -m venv venv
+   .\venv\Scripts\Activate.ps1
+   ```
+4. Instale as dependências
+   ```bash
+   pip install -r requirements.txt
+   ```
 5. Para rodar o dashboard:
-    ```bash
-    streamlit run app.py
+   ```bash
+   streamlit run app.py
+   ```
+
 ---
+
 ## ✨ Resultado Final
+
 O projeto final é um Dashboard Interativo de Análise Salarial que permite filtrar dados, visualizar métricas e explorar gráficos dinâmicos, contando a história dos dados de forma visual e intuitiva.
